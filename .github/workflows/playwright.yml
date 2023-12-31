@@ -17,12 +17,12 @@ jobs:
       run: npm ci
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
-    - uses: coactions/setup-xvfb@v1
+    - name: Setup XVFB
+      uses: coactions/setup-xvfb@v1
       with:
         run_headless: true 
-      run: xvfb-run
-    - name: Run Playwright tests
-      run: npx playwright test
+    - name: Run Playwright tests with XVFB
+      run: xvfb-run npx playwright test
     - uses: actions/upload-artifact@v3
       if: always()
       with:
