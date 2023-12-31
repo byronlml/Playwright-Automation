@@ -20,7 +20,7 @@ jobs:
     - uses: coactions/setup-xvfb@v1
       with:
         run_headless: true 
-        run: xvfb-run
+      run: xvfb-run
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v3
