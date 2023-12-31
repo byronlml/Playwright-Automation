@@ -19,8 +19,6 @@ jobs:
       run: npx playwright install --with-deps
     - name: Setup XVFB
       uses: coactions/setup-xvfb@v1
-      with:
-        run_headless: true 
     - name: Run Playwright tests with XVFB
       run: xvfb-run npx playwright test
     - uses: actions/upload-artifact@v3
