@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Setup XVFB
-      uses: coactions/setup-xvfb@v1
+      run: sudo apt-get install -y xvfb x11-xserver-utils
     - name: Run Playwright tests with XVFB
       run: xvfb-run npx playwright test
     - uses: actions/upload-artifact@v3
