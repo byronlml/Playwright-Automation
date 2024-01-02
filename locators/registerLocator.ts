@@ -9,5 +9,6 @@ export const registerLocator = {
     confirmPasswordInput: "#input-confirm",
     subscribeCheckbox: "(//label[@class='custom-control-label'])[2]",
     agreeCheckbox: "(//label[@class='custom-control-label'])[3]",
-    continueButton: "#input-confirm", // Assuming this ID is correct for the continue button
+    continueButton: "//input[@class='btn btn-primary']",
+    accountCreated: "//h1[@class='page-title my-3']",
   };

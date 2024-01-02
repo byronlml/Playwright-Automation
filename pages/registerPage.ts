@@ -1,4 +1,4 @@
-import { Page }  from "@playwright/test";
+import { Page, expect }  from "@playwright/test";
 import { registerLocator } from "../locators/registerLocator";
 export default class ResgiterPage{
 
@@ -60,5 +60,11 @@ export default class ResgiterPage{
     async clickContinueButton(){
         await this.page.locator(registerLocator.continueButton)
         .click();
+    }
+
+    async accountCreated(success: string): Promise<void>{
+        const confirm = this.page.locator(registerLocator.accountCreated);
+        await confirm.waitFor({ state: 'visible' });
+        await expect(confirm).toContainText(success);
     }
 }

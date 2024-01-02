@@ -47,7 +47,8 @@
         "testDir": "C:/Users/ASUS/Documents/PlayWrite_Automation/PlayWrite-Automation",
         "testIgnore": [],
         "testMatch": [
-          "tests/register.spec.ts"
+          "tests/register.spec.ts",
+          "tests/login.spec.ts"
         ],
         "timeout": 300000
       }
@@ -60,13 +61,13 @@
   },
   "suites": [
     {
-      "title": "tests\\register.spec.ts",
-      "file": "tests/register.spec.ts",
+      "title": "tests\\login.spec.ts",
+      "file": "tests/login.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Register Form",
+          "title": "Login test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -80,22 +81,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3835,
+                  "duration": 6510,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-12-31T19:43:21.403Z",
+                  "startTime": "2024-01-02T17:11:54.750Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-register-Register-Form-chrome\\test-finished-1.png"
+                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-login-Login-test-chrome\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-register-Register-Form-chrome\\video.webm"
+                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-login-Login-test-chrome\\video.webm"
                     }
                   ]
                 }
@@ -103,9 +104,9 @@
               "status": "expected"
             }
           ],
-          "id": "70b6fafed16e3c06d12a-c009ba6ec87aa87bed45",
-          "file": "tests/register.spec.ts",
-          "line": 10,
+          "id": "6b6dc33e290e5a0a43b1-c8dec5413950e1d394e4",
+          "file": "tests/login.spec.ts",
+          "line": 11,
           "column": 5
         }
       ]
@@ -113,8 +114,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-12-31T19:43:20.899Z",
-    "duration": 4772.336,
+    "startTime": "2024-01-02T17:11:54.221Z",
+    "duration": 7535.724999999999,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

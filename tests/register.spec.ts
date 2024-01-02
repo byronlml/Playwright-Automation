@@ -24,6 +24,8 @@ test('Register Form', async ({ page, baseURL }) => {
     await register.clickAgree();
 
     await register.clickContinueButton();
+
+    await register.accountCreated(" Your Account Has Been Created!");
     
   
   });

@@ -11,7 +11,7 @@ const config: PlaywrightTestConfig = {
         }
     ],
 
-    testMatch: ["tests/register.spec.ts"],
+    testMatch: ["tests/register.spec.ts", "tests/login.spec.ts"],
     use: {
         // connectOptions: {
         //     wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=
