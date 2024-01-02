@@ -81,12 +81,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4517,
+                  "duration": 4856,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-01-02T19:28:45.604Z",
+                  "startTime": "2024-01-02T19:35:41.696Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -106,7 +106,7 @@
           ],
           "id": "6b6dc33e290e5a0a43b1-c8dec5413950e1d394e4",
           "file": "tests/login.spec.ts",
-          "line": 11,
+          "line": 10,
           "column": 5
         }
       ]
@@ -114,8 +114,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-02T19:28:45.167Z",
-    "duration": 5387.323,
+    "startTime": "2024-01-02T19:35:41.109Z",
+    "duration": 5925.177000000001,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
