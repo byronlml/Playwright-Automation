@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import ResgiterPage from '../pages/registerPage';
 import fs from "fs";
 import * as path from "path";

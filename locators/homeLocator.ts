@@ -1,3 +1,3 @@
 export const homeLocator = {
-    homePage: "entry_217821",
+    homePage: "div[data-id='217821']",
 };

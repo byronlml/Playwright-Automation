@@ -48,7 +48,8 @@
         "testIgnore": [],
         "testMatch": [
           "tests/register.spec.ts",
-          "tests/login.spec.ts"
+          "tests/login.spec.ts",
+          "tests/buyProduct.spec.ts"
         ],
         "timeout": 300000
       }
@@ -61,13 +62,13 @@
   },
   "suites": [
     {
-      "title": "tests\\login.spec.ts",
-      "file": "tests/login.spec.ts",
+      "title": "tests\\buyProduct.spec.ts",
+      "file": "tests/buyProduct.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Login test",
+          "title": "Buy Product test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -81,22 +82,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4856,
+                  "duration": 10337,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-01-02T19:35:41.696Z",
+                  "startTime": "2024-01-03T00:28:42.842Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-login-Login-test-chrome\\test-finished-1.png"
+                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-buyProduct-Buy-Product-test-chrome\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-login-Login-test-chrome\\video.webm"
+                      "path": "C:\\Users\\ASUS\\Documents\\PlayWrite_Automation\\PlayWrite-Automation\\test-results\\tests-buyProduct-Buy-Product-test-chrome\\video.webm"
                     }
                   ]
                 }
@@ -104,9 +105,9 @@
               "status": "expected"
             }
           ],
-          "id": "6b6dc33e290e5a0a43b1-c8dec5413950e1d394e4",
-          "file": "tests/login.spec.ts",
-          "line": 10,
+          "id": "de2d92c891f9cff5411f-e8e2f64b4cbd5a69e859",
+          "file": "tests/buyProduct.spec.ts",
+          "line": 11,
           "column": 5
         }
       ]
@@ -114,8 +115,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-01-02T19:35:41.109Z",
-    "duration": 5925.177000000001,
+    "startTime": "2024-01-03T00:28:42.264Z",
+    "duration": 11400.474,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
