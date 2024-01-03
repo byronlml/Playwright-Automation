@@ -5,7 +5,7 @@ export default class BuyProduct{
     constructor(public page: Page){}
 
     async clickOnAppleButton(){
-        await this.page.hover(buyProductLocator.megaMenuDrop);
+        const menu =  this.page.hover(buyProductLocator.megaMenuDrop);
         await this.page.locator(buyProductLocator.appleButton)
         .click();
     }
