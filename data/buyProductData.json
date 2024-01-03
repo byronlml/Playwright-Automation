@@ -1,6 +1,16 @@
 {
     "buyProductData": {
       "email": "by940205test6@gmail.com",
-      "password": "AutomationPlay1234*"
+      "password": "AutomationPlay1234*",
+      "firstName": "Alexis",
+      "lastName": "Granja",
+      "company": "Automation SAS",
+      "adressOne": "Av 4 #5 - 66",
+      "adressTwo": "Av 4 #4  - 55",
+      "city": "Palmira",
+      "postCode": "78546",
+      "country": "Colombia",
+      "regionState": "Valle del Cauca"
+
     }
 }

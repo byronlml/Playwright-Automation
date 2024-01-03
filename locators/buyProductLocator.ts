@@ -19,8 +19,12 @@ export const buyProductLocator = {
     adressPaymentTwo: "#input-payment-address-2",
     cityPayment: "#input-payment-city",
     postCodePayment: "#input-payment-postcode",
-    countryPayment: "input-payment-country",
-    regionStatePayment: "input-payment-zone",
+    countryPayment: "#input-payment-country",
+    regionStatePayment: "#input-payment-zone",
+    agreeConditions: "//label[@for='input-agree']",
     saveButton: "#button-save",
+    confirmOrderInput: "//h1[@class='page-title mb-3']",
+    confirmOrderButton: "#button-confirm",
+    succesfulPurchase: "//p[text()='Your order has been successfully processed!']",
 
 };
