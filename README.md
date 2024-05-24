@@ -1,7 +1,7 @@
 # PlayWright-Automation
 Este es un proyecto de autometizacion construido usando PlayWrite.
 
-# Instalacion de PlayWrite
+# Instalacion de PlayWright
 
 `https://playwright.dev/docs/intro`
 
