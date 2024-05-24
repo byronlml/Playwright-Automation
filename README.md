@@ -1,4 +1,4 @@
-# PlayWrite-Automation
+# PlayWright-Automation
 Este es un proyecto de autometizacion construido usando PlayWrite.
 
 # Instalacion de PlayWrite
